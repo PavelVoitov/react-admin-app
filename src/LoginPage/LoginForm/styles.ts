@@ -1,11 +1,8 @@
 export const boxStyle = {
-	position: 'absolute',
-	top: '50%',
-	left: '50%',
-	width: "384px",
-	transform: 'translate(-50%, -50%)',
+	width: "500px",
+	margin: "120px",
 	bgcolor: 'background.paper',
-	p: 4,
+	// p: 4,
 }
 
 export const inputStyle = {
@@ -14,6 +11,7 @@ export const inputStyle = {
 	background: "#FFFFFF",
 	border: '1px solid #EBEBED',
 	borderRadius: "8px",
+	width: "384px"
 }
 
 export const inputLabelStyle = {
@@ -27,12 +25,27 @@ export const inputLabelStyle = {
 
 export const titleForm = {
 	fontWeight: 800,
-	textAlign: 'left'
+	textAlign: 'left',
+	marginBottom: '20px',
+	fontSize: "32px",
+	lineHeight: "40px"
 }
 
 export const helperText = {
 	color: "#151515",
+	width: "357px",
 	marginBottom: "48px",
-	weight: 400
+	fontWeight: 400,
+	fontSize: "14px",
+	lineHeight: "20px",
+}
+
+export const buttonFormStyle = {
+	background: '#3626A7',
+	textTransform: "capitalize",
+	marginTop: '108px',
+	width: '384px',
+	height: '48px',
+	borderRadius: '8px'
 }
 
